@@ -16,7 +16,7 @@ Pull all the files from Github and place them in this folder. Than, update the i
 When deployed on the library in a box, a database needs to be set-up on the device. More details on this will be covered in 2 sections from here: ‘Database setup and access’.
 
 
-### Potential deployment on the web
+## Potential deployment on the web
 When this project is wanted to be deployed on a web hosting server, not too much extra effort is required. A hosting package with a database is needed. That, downloading the source files and placing them on the server via FTP should make the application accessible on the domain name URL that it is planned to be deployed on. The somewhat more tricky part is the database set-up, which will be discussed now.
 
 #### Database setup and access
