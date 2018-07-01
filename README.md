@@ -1,11 +1,11 @@
-#User Manual
+# User Manual
 
 
-##Deployment on the Raspberry Pi 
+## Deployment on the Raspberry Pi 
 When the application is planned to be accessible from a Raspberry Pi: more specifically on the ‘Library In a Box’ platform, the application files need to be placed in the right directory, and a link should be provided from the landing page on the ’Library in a Box’. 
 
 
-###Adding content:
+### Adding content:
 
 
 On the raspberryPI, the files can be added to the following directory:
@@ -16,10 +16,10 @@ Pull all the files from Github and place them in this folder. Than, update the i
 When deployed on the library in a box, a database needs to be set-up on the device. More details on this will be covered in 2 sections from here: ‘Database setup and access’.
 
 
-###Potential deployment on the web
+### Potential deployment on the web
 When this project is wanted to be deployed on a web hosting server, not too much extra effort is required. A hosting package with a database is needed. That, downloading the source files and placing them on the server via FTP should make the application accessible on the domain name URL that it is planned to be deployed on. The somewhat more tricky part is the database set-up, which will be discussed now.
 
-####Database setup and access
+#### Database setup and access
 Since the content of the quizzes and content reader are dynamically loaded, the database needs to be properly set-up and connected to the application. On the Raspberry Pi where the application is currently installed on, the following credentials are used: 
 
 To access the database for changing, copying or retrieving data or information structures, PHPmyadmin installed on the Pi can be used. 
