@@ -1,0 +1,24 @@
+html {
+background-color: black;
+}
+
+.username {
+  padding: 5px;
+  font-size: 20px;
+}
+
+.submit {
+
+  background-color: rgb(238,9,121);
+  color: white;
+  padding: 24px 48px 24px 48px;
+  border-radius: 5rem;
+  border: 0px solid;
+  font-weight: 700;
+  font-size: .9rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  font-family: Lato;
+  margin-top: 20px;
+
+}
